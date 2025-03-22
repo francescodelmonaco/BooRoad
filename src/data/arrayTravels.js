@@ -99,6 +99,7 @@ const arrayTravels = [
     {
         "id": 3,
         "destinazione": "Londra",
+        "url": "https://unsplash.com/photos/the-iconic-british-old-red-telephone-box-with-the-big-ben-at-background-in-the-center-of-london-FzB2nESZEkk",
         "data_inizio": "2023-12-01",
         "data_fine": "2023-12-08",
         "viaggiatori": [
