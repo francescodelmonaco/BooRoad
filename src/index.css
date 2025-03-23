@@ -59,10 +59,9 @@
     justify-content: center;
 
     p {
-        font-family: cursive;
+        font-family: 'Times New Roman', Times, serif;
         color: black;
-
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -85,7 +84,6 @@ li {
 .accordion-button-no-blue {
     color: inherit;
 }
-
 
 
 nav a img {

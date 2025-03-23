@@ -3,7 +3,7 @@ const arrayTravels = [
     {
         "id": 1,
         "destinazione": "Roma",
-        "url": "/destinations/roma.jpg",
+        "url": "/destinations/roma.avif",
         "data_inizio": "2023-10-20",
         "data_fine": "2023-10-27",
         "viaggiatori": [
@@ -52,7 +52,7 @@ const arrayTravels = [
     {
         "id": 2,
         "destinazione": "Parigi",
-        "url": "https://images.unsplash.com/photo-1549144511-f099e773c147?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "/destinations/parigi.jpg",
         "data_inizio": "2023-11-05",
         "data_fine": "2023-11-12",
         "viaggiatori": [
@@ -101,7 +101,7 @@ const arrayTravels = [
     {
         "id": 3,
         "destinazione": "Londra",
-        "url": "https://img.freepik.com/foto-gratuito/architettura-di-monumenti-antichi-per-la-celebrazione-della-giornata-del-patrimonio-mondiale_23-2151297178.jpg?t=st=1742675577~exp=1742679177~hmac=bb1887d411f45f180fbf82b9e53e3f12e03e6bdb4e1b7146f409f48e087dd3c8&w=360",
+        "url": "/destinations/londra.jpg",
         "data_inizio": "2023-12-01",
         "data_fine": "2023-12-08",
         "viaggiatori": [
@@ -150,7 +150,7 @@ const arrayTravels = [
     {
         "id": 4,
         "destinazione": "Barcellona",
-        "url": "https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "/destinations/barcellona.jpg",
         "data_inizio": "2024-01-15",
         "data_fine": "2024-01-22",
         "viaggiatori": [
@@ -190,7 +190,7 @@ const arrayTravels = [
     {
         "id": 5,
         "destinazione": "Berlino",
-        "url": "https://images.unsplash.com/photo-1528728329032-4664a98b0f49?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "/destinations/berlino.jpg",
         "data_inizio": "2024-03-10",
         "data_fine": "2024-03-17",
         "viaggiatori": [
@@ -231,7 +231,7 @@ const arrayTravels = [
     {
         "id": 6,
         "destinazione": "Amsterdam",
-        "url": "https://images.unsplash.com/photo-1516239482977-b5552b95b17a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "/destinations/amsterdam.avif",
         "data_inizio": "2024-04-20",
         "data_fine": "2024-04-27",
         "viaggiatori": [
@@ -280,7 +280,7 @@ const arrayTravels = [
     {
         "id": 7,
         "destinazione": "Madrid",
-        "url": "https://images.unsplash.com/photo-1523906834607-65c361935044?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "/destinations/madrid.jpg",
         "data_inizio": "2024-05-15",
         "data_fine": "2024-05-22",
         "viaggiatori": [
