@@ -1,8 +1,8 @@
-// import { useState } from 'react';
+// import { useState } from 'react'; => to Context
 import Accordion from '../components/Accordion';
 import { useTravelContext } from '../contexts/TravelContext';
 
-export default function TravelersBook({ travelData }) {
+export default function TravelersBook() {
     const { filteredViaggiatori } = useTravelContext()
 
 
@@ -11,7 +11,7 @@ export default function TravelersBook({ travelData }) {
 
     // const filteredViaggiatori = tuttiViaggiatori.filter(viaggiatore =>
     //     viaggiatore.nome.toLowerCase().includes(searchTerm.toLowerCase())
-    // );
+    // ); =>to Context
 
     return (
         <div>

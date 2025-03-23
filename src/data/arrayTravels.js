@@ -3,7 +3,7 @@ const arrayTravels = [
     {
         "id": 1,
         "destinazione": "Roma",
-        "url": "https://images.unsplash.com/photo-1569230516306-5a8cb5586399?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "url": "/destinations/roma.jpg",
         "data_inizio": "2023-10-20",
         "data_fine": "2023-10-27",
         "viaggiatori": [

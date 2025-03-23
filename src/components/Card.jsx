@@ -12,6 +12,7 @@ export default function Card({ t }) {
 
             <div className="cover">
                 <img src={t.url} className="img-fluid img-thumbnail" alt={t.destinazione} />
+                <p className="position-absolute top-0 end-0"><strong>{t.restinazione}</strong></p>
             </div>
         </div>
     )

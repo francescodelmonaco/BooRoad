@@ -11,10 +11,8 @@ export default function DefaultLayout() {
 
     return (
         <>
-            <Header >
-
-            </Header>
-            <main>
+            <Header />
+            <main className="container my-5">
                 <Outlet />
             </main>
         </>

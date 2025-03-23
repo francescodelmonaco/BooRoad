@@ -1,29 +1,19 @@
 import { useTravelContext } from "../contexts/TravelContext"
 
 
+export default function SearchBar() {
 
-export default function SearchBar(/*{ props }*/) {
-
-    const { searchTerm, handleSearch } = useTravelContext();
+    const { searchTerm, handleSearch, handleSubmit } = useTravelContext();
     return (
-        <form className="d-flex my-2 my-lg-0 " /*onSubmit={#}*/ >
-            {/* <input
-                className="form-control me-sm-2"
-                type="text"
-                placeholder="Search"
-            /> */}
+        <form className="d-flex my-2 my-lg-0 " onSubmit={handleSubmit} >
+
             <input
                 type="text"
-                placeholder="Cerca per nome..."
+                placeholder="cerca in rubrica..."
                 value={searchTerm}
                 onChange={handleSearch}
             />
-            <button
-                className="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-            >
-                Search
-            </button>
+
         </form>
     )
 }

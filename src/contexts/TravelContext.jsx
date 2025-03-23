@@ -9,7 +9,7 @@ function TravelProvider({ children }) {
     const [searchTerm, setSearchTerm] = useState('');
 
     const filteredViaggiatori = tuttiViaggiatori.filter(viaggiatore =>
-        viaggiatore.nome.toLowerCase().includes(searchTerm.toLowerCase())
+        (viaggiatore.nome.toLowerCase() + viaggiatore.cognome.toLowerCase()).includes(searchTerm.toLowerCase())
     );
 
 
@@ -18,12 +18,16 @@ function TravelProvider({ children }) {
         setSearchTerm(e.target.value)
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
+
 
     const data = {
         handleSearch,
         searchTerm,
         filteredViaggiatori,
-
+        handleSubmit
     }
 
 

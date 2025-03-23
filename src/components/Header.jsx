@@ -8,12 +8,13 @@ export default function Header() {
     const showSB = location.pathname.startsWith('/contacts')
 
     return (
-        <nav className="p-4 navbar navbar-expand-lg bg-body-tertiary  d-flex justify-content-between">
+        <nav className=" navbar navbar-expand-md bg-body-tertiary  d-flex justify-content-around">
 
 
             <Link className="navbar-brand" to='/'>
-                <img width="50px" src="/logo.png" className="img-fluid" alt="" />
+                <img width="50px" src="/logo.png" className="img-fluid rounded" alt="logo" />
             </Link>
+            {showSB && <SearchBar />}
 
             <ul className="nav navbar-nav">
                 <li className="nav-item">
@@ -22,9 +23,7 @@ export default function Header() {
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/contacts">RUBRICA</NavLink>
                 </li>
-                <li>
-                    {showSB && <SearchBar />}
-                </li>
+
             </ul>
         </nav>
     )
