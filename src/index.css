@@ -1,5 +1,5 @@
 .book {
-    color: lime !important;
+    color: rgb(156, 158, 156) !important;
     position: relative;
     border-radius: 10px;
     width: 220px;
@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-position: center;
     -webkit-box-shadow: 1px 1px 12px #000;
-    box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 20px #000;
     -webkit-transform: preserve-3d;
     -ms-transform: preserve-3d;
     transform: preserve-3d;
@@ -59,10 +59,10 @@
     justify-content: center;
 
     p {
-        font-family: monospace;
+        font-family: cursive;
         color: black;
-        font-weight: 900;
-        font-size: x-large;
+
+        font-size: 2rem;
     }
 }
 
@@ -84,4 +84,14 @@ li {
 
 .accordion-button-no-blue {
     color: inherit;
+}
+
+
+
+nav a img {
+    transition: transform 0.5s ease;
+}
+
+nav a img:hover {
+    transform: rotate(180deg);
 }

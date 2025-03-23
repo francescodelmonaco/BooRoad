@@ -1,4 +1,4 @@
-export default function Accordion({ v }) {
+export default function Accordion({ v, i }) {
     return (
         <div className=" accordion col-8 col-md-6 mx-auto " id="accordionExample">
             <div className="accordion-item p-2">
@@ -9,7 +9,7 @@ export default function Accordion({ v }) {
                         data-bs-toggle="collapse"
                         data-bs-target={`#${v.codice_fiscale}`}
                         aria-expanded="false"
-                        aria-controls={v.id}
+                        aria-controls={v.codice_fiscale}
                     >
                         {v.nome} {v.cognome}
                     </button>
@@ -21,9 +21,9 @@ export default function Accordion({ v }) {
                 >
                     <div className="accordion-body">
 
-                        <p> <strong>{v.codice_fiscale}</strong></p>
-                        <p>{v.email}</p>
-                        <p>{v.cellulare}</p>
+                        <p> telefono: <strong>{v.cellulare}</strong></p>
+                        <p>email: {v.email}</p>
+                        <p>CF: {v.codice_fiscale}</p>
 
                     </div>
                 </div>

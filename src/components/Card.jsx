@@ -4,15 +4,15 @@ export default function Card({ t }) {
         <div key={t.id} className="book my-3">
             <ul>
                 <li><h3>{t.destinazione}</h3></li>
-                <li><h5>{t.data_inizio}</h5></li>
-                <li><h5>{t.data_fine}</h5></li>
-                <li><p>gruppo di {(t.viaggiatori).length} viaggiatori</p></li>
+                <li><h5>inizio {t.data_inizio}</h5></li>
+                <li><h5>fine {t.data_fine}</h5></li>
+                <li><p>{(t.viaggiatori).length} viaggiatori</p></li>
             </ul>
 
 
             <div className="cover">
                 <img src={t.url} className="img-fluid img-thumbnail" alt={t.destinazione} />
-                <p className="position-absolute top-0 start-5"><strong>{t.destinazione}</strong></p>
+                <p className="position-absolute top-0 end-0 px-3 py-2  "><strong>{t.destinazione}</strong></p>
             </div>
         </div>
     )
