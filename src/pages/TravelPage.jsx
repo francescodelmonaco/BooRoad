@@ -14,7 +14,7 @@ export default function TravelPage({ travelData }) {
 
     return (
 
-        <div className="contianer">
+        <div className="container">
 
             {viaggiatori.map(v => {
                 return (

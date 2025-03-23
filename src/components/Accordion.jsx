@@ -1,13 +1,13 @@
 export default function Accordion({ v }) {
     return (
-        <div className="accordion col-8 col-md-6 mx-auto p-2" id="accordionExample">
-            <div className="accordion-item">
+        <div className=" accordion col-8 col-md-6 mx-auto " id="accordionExample">
+            <div className="accordion-item p-2">
                 <h2 className="accordion-header">
                     <button
                         className="accordion-button collapsed accordion-button-no-blue"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target={`#${v.id}`}
+                        data-bs-target={`#${v.codice_fiscale}`}
                         aria-expanded="false"
                         aria-controls={v.id}
                     >
@@ -15,7 +15,7 @@ export default function Accordion({ v }) {
                     </button>
                 </h2>
                 <div
-                    id={v.id}
+                    id={v.codice_fiscale}
                     className="accordion-collapse collapse"
                     data-bs-parent="#accordionExample"
                 >

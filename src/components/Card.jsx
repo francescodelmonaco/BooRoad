@@ -1,7 +1,7 @@
 export default function Card({ t }) {
 
     return (
-        <div key={t.id} className="book">
+        <div key={t.id} className="book my-3">
             <ul>
                 <li><h3>{t.destinazione}</h3></li>
                 <li><h5>{t.data_inizio}</h5></li>

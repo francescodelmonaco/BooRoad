@@ -11,7 +11,7 @@ export default function HomePage({ travelData }) {
             {
                 travelData.map(t => {
                     return (
-                        <Link to={`/travels/${t.id}`}>
+                        <Link key={t.id} to={`/travels/${t.id}`}>
                             <Card t={t} />
                         </Link>
                     )
