@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom"
+import { NavLink, Link, useLocation } from "react-router-dom"
 import SearchBar from "./SearchBar"
 
 
@@ -8,12 +8,12 @@ export default function Header() {
     const showSB = location.pathname.startsWith('/contacts')
 
     return (
-        <nav className=" navbar navbar-expand-lg bg-body-tertiary  d-flex justify-content-between">
+        <nav className="p-4 navbar navbar-expand-lg bg-body-tertiary  d-flex justify-content-between">
 
 
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to='/'>
                 <img width="50px" src="/logo.png" className="img-fluid" alt="" />
-            </a>
+            </Link>
 
             <ul className="nav navbar-nav">
                 <li className="nav-item">

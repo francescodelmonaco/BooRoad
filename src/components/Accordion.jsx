@@ -7,7 +7,7 @@ export default function Accordion({ v }) {
                         className="accordion-button collapsed accordion-button-no-blue"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target={`#${v.id}`}
+                        data-bs-target={`#${v.codice_fiscale}`}
                         aria-expanded="false"
                         aria-controls={v.id}
                     >
@@ -15,7 +15,7 @@ export default function Accordion({ v }) {
                     </button>
                 </h2>
                 <div
-                    id={v.id}
+                    id={v.codice_fiscale}
                     className="accordion-collapse collapse"
                     data-bs-parent="#accordionExample"
                 >
