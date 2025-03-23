@@ -1,7 +1,7 @@
 export default function Accordion({ v }) {
     return (
-        <div className="accordion col-8 col-md-6 mx-auto p-2" id="accordionExample">
-            <div className="accordion-item">
+        <div className=" accordion col-8 col-md-6 mx-auto " id="accordionExample">
+            <div className="accordion-item p-2">
                 <h2 className="accordion-header">
                     <button
                         className="accordion-button collapsed accordion-button-no-blue"

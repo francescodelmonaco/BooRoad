@@ -8,7 +8,13 @@ export default function Header() {
     const showSB = location.pathname.startsWith('/contacts')
 
     return (
-        <nav className="navbar navbar-expand  d-flex justify-content-center align-items-center">
+        <nav className=" navbar navbar-expand-lg bg-body-tertiary  d-flex justify-content-between">
+
+
+            <a className="navbar-brand" href="#">
+                <img width="50px" src="/logo.png" className="img-fluid" alt="" />
+            </a>
+
             <ul className="nav navbar-nav">
                 <li className="nav-item">
                     <NavLink className="nav-link " to="/"> HOME </NavLink>
