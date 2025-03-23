@@ -57,6 +57,13 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+
+    p {
+        font-family: monospace;
+        color: black;
+        font-weight: 900;
+        font-size: x-large;
+    }
 }
 
 .book:hover .cover {
