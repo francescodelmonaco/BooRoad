@@ -1,7 +1,5 @@
 import { useLocation } from "react-router-dom";
 
-
-
 export default function Accordion({ v, i }) {
 
     const location = useLocation();
