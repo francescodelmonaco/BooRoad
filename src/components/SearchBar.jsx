@@ -1,7 +1,6 @@
 import { useTravelContext } from "../contexts/TravelContext"
 
 
-
 export default function SearchBar() {
 
 

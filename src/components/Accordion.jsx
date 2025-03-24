@@ -24,6 +24,7 @@ export default function Accordion({ v, i }) {
                         <p> telefono: <strong>{v.cellulare}</strong></p>
                         <p>email: {v.email}</p>
                         <p>CF: {v.codice_fiscale}</p>
+                        <p>destinazione: {v.destinazione}</p>
 
                     </div>
                 </div>

@@ -62,7 +62,6 @@ Questo progetto è un'applicazione React creata con Vite, progettata per aiutare
 * Bootstrap
 
 ## Configurazione
-
 * Per aggiungere o modificare i dati dei viaggi e dei contatti, modifica l'array di dati fittizi nel codice.
 
 ## Struttura del Progetto

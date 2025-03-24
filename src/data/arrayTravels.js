@@ -13,7 +13,8 @@ const arrayTravels = [
                 "cognome": "Rossi",
                 "email": "mario.rossi@example.com",
                 "cellulare": "3331234567",
-                "codice_fiscale": "RSSMRA80A01H501X"
+                "codice_fiscale": "RSSMRA80A01H501X",
+                "destinazione": "Roma",
             },
             {
                 "id": 2,
@@ -21,7 +22,8 @@ const arrayTravels = [
                 "cognome": "Verdi",
                 "email": "luigi.verdi@example.com",
                 "cellulare": "3337654321",
-                "codice_fiscale": "VRDLGI85B02H502Y"
+                "codice_fiscale": "VRDLGI85B02H502Y",
+                "destinazione": "Roma",
             },
             {
                 "id": 3,
@@ -29,7 +31,8 @@ const arrayTravels = [
                 "cognome": "Esposito",
                 "email": "giulia.esposito@example.com",
                 "cellulare": "3338765432",
-                "codice_fiscale": "ESPGIU92C03H503Z"
+                "codice_fiscale": "ESPGIU92C03H503Z",
+                "destinazione": "Roma",
             },
             {
                 "id": 4,
@@ -37,7 +40,8 @@ const arrayTravels = [
                 "cognome": "Colombo",
                 "email": "roberto.colombo@example.com",
                 "cellulare": "3339876543",
-                "codice_fiscale": "CLMRBT88D04H504W"
+                "codice_fiscale": "CLMRBT88D04H504W",
+                "destinazione": "Roma",
             },
             {
                 "id": 5,
@@ -45,7 +49,8 @@ const arrayTravels = [
                 "cognome": "Ferrari",
                 "email": "francesca.ferrari@example.com",
                 "cellulare": "3331122334",
-                "codice_fiscale": "FRRFNC90E05H505V"
+                "codice_fiscale": "FRRFNC90E05H505V",
+                "destinazione": "Roma",
             }
         ]
     },
@@ -62,7 +67,8 @@ const arrayTravels = [
                 "cognome": "Bianchi",
                 "email": "anna.bianchi@example.com",
                 "cellulare": "3339876543",
-                "codice_fiscale": "BNCNNA90C03H503Z"
+                "codice_fiscale": "BNCNNA90C03H503Z",
+                "destinazione": "Parigi",
             },
             {
                 "id": 2,
@@ -70,7 +76,8 @@ const arrayTravels = [
                 "cognome": "Neri",
                 "email": "giuseppe.neri@example.com",
                 "cellulare": "3333456789",
-                "codice_fiscale": "NRIGPP75D04H504W"
+                "codice_fiscale": "NRIGPP75D04H504W",
+                "destinazione": "Parigi",
             },
             {
                 "id": 3,
@@ -78,7 +85,8 @@ const arrayTravels = [
                 "cognome": "Romano",
                 "email": "alessia.romano@example.com",
                 "cellulare": "3336543210",
-                "codice_fiscale": "RMNALS91E05H505V"
+                "codice_fiscale": "RMNALS91E05H505V",
+                "destinazione": "Parigi",
             },
             {
                 "id": 4,
@@ -86,7 +94,8 @@ const arrayTravels = [
                 "cognome": "Ricci",
                 "email": "davide.ricci@example.com",
                 "cellulare": "3332345678",
-                "codice_fiscale": "RCCDVD87F06H506U"
+                "codice_fiscale": "RCCDVD87F06H506U",
+                "destinazione": "Parigi",
             },
             {
                 "id": 5,
@@ -94,7 +103,8 @@ const arrayTravels = [
                 "cognome": "Bruno",
                 "email": "valentina.bruno@example.com",
                 "cellulare": "3334567891",
-                "codice_fiscale": "BRNVNT93G07H507T"
+                "codice_fiscale": "BRNVNT93G07H507T",
+                "destinazione": "Parigi",
             }
         ]
     },
@@ -111,7 +121,8 @@ const arrayTravels = [
                 "cognome": "Gialli",
                 "email": "elena.gialli@example.com",
                 "cellulare": "3331122334",
-                "codice_fiscale": "GLLLEN88E05H505V"
+                "codice_fiscale": "GLLLEN88E05H505V",
+                "destinazione": "Londra",
             },
             {
                 "id": 2,
@@ -119,7 +130,8 @@ const arrayTravels = [
                 "cognome": "Viola",
                 "email": "marco.viola@example.com",
                 "cellulare": "3335566778",
-                "codice_fiscale": "VILMRC82F06H506U"
+                "codice_fiscale": "VILMRC82F06H506U",
+                "destinazione": "Londra",
             },
             {
                 "id": 3,
@@ -127,7 +139,8 @@ const arrayTravels = [
                 "cognome": "Moretti",
                 "email": "stefano.moretti@example.com",
                 "cellulare": "3337788990",
-                "codice_fiscale": "MRTSFN94H08H508S"
+                "codice_fiscale": "MRTSFN94H08H508S",
+                "destinazione": "Londra",
             },
             {
                 "id": 4,
@@ -135,7 +148,8 @@ const arrayTravels = [
                 "cognome": "Barbieri",
                 "email": "federica.barbieri@example.com",
                 "cellulare": "3339900112",
-                "codice_fiscale": "BRBFDR86I09H509R"
+                "codice_fiscale": "BRBFDR86I09H509R",
+                "destinazione": "Londra",
             },
             {
                 "id": 5,
@@ -143,7 +157,8 @@ const arrayTravels = [
                 "cognome": "Santoro",
                 "email": "simone.santoro@example.com",
                 "cellulare": "3333344556",
-                "codice_fiscale": "SNTSMN95L10H510Q"
+                "codice_fiscale": "SNTSMN95L10H510Q",
+                "destinazione": "Londra",
             }
         ]
     },
@@ -160,7 +175,8 @@ const arrayTravels = [
                 "cognome": "Azzurri",
                 "email": "laura.azzurri@example.com",
                 "cellulare": "3339988776",
-                "codice_fiscale": "ZZRLRA92G07H507T"
+                "codice_fiscale": "ZZRLRA92G07H507T",
+                "destinazione": "Barcellona",
             },
             {
                 "id": 2,
@@ -168,7 +184,8 @@ const arrayTravels = [
                 "cognome": "Arancioni",
                 "email": "paolo.arancioni@example.com",
                 "cellulare": "3336677889",
-                "codice_fiscale": "RCNPLA87H08H508S"
+                "codice_fiscale": "RCNPLA87H08H508S",
+                "destinazione": "Barcellona",
             },
             {
                 "id": 3,
@@ -176,7 +193,8 @@ const arrayTravels = [
                 "cognome": "Fontana",
                 "email": "martina.fontana@example.com",
                 "cellulare": "3338899001",
-                "codice_fiscale": "FNTMRT90I09H509R"
+                "codice_fiscale": "FNTMRT90I09H509R",
+                "destinazione": "Barcellona",
             },
             {
                 "id": 4,
@@ -184,7 +202,8 @@ const arrayTravels = [
                 "cognome": "Conti",
                 "email": "alessandro.conti@example.com",
                 "cellulare": "3334455667",
-                "codice_fiscale": "CNTLSN88L10H510Q"
+                "codice_fiscale": "CNTLSN88L10H510Q",
+                "destinazione": "Barcellona",
             }]
     },
     {
@@ -200,7 +219,8 @@ const arrayTravels = [
                 "cognome": "Moretti",
                 "email": "sofia.moretti@example.com",
                 "cellulare": "3331234567",
-                "codice_fiscale": "MRTSFA90A01H501X"
+                "codice_fiscale": "MRTSFA90A01H501X",
+                "destinazione": "Berlino",
             },
             {
                 "id": 2,
@@ -208,7 +228,8 @@ const arrayTravels = [
                 "cognome": "Ferrari",
                 "email": "luca.ferrari@example.com",
                 "cellulare": "3337654321",
-                "codice_fiscale": "FRRLCA85B02H502Y"
+                "codice_fiscale": "FRRLCA85B02H502Y",
+                "destinazione": "Berlino",
             },
             {
                 "id": 3,
@@ -216,7 +237,8 @@ const arrayTravels = [
                 "cognome": "Russo",
                 "email": "chiara.russo@example.com",
                 "cellulare": "3338765432",
-                "codice_fiscale": "RSOCRA92C03H503Z"
+                "codice_fiscale": "RSOCRA92C03H503Z",
+                "destinazione": "Berlino",
             },
             {
                 "id": 4,
@@ -224,7 +246,8 @@ const arrayTravels = [
                 "cognome": "Bianchi",
                 "email": "andrea.bianchi@example.com",
                 "cellulare": "3339876543",
-                "codice_fiscale": "BNCDRA88D04H504W"
+                "codice_fiscale": "BNCDRA88D04H504W",
+                "destinazione": "Berlino",
             }
         ]
     },
@@ -241,7 +264,8 @@ const arrayTravels = [
                 "cognome": "Verdi",
                 "email": "giorgia.verdi@example.com",
                 "cellulare": "3339876543",
-                "codice_fiscale": "VRDGIA90C03H503Z"
+                "codice_fiscale": "VRDGIA90C03H503Z",
+                "destinazione": "Amsterdam",
             },
             {
                 "id": 2,
@@ -249,7 +273,8 @@ const arrayTravels = [
                 "cognome": "Esposito",
                 "email": "matteo.esposito@example.com",
                 "cellulare": "3333456789",
-                "codice_fiscale": "ESPMTT75D04H504W"
+                "codice_fiscale": "ESPMTT75D04H504W",
+                "destinazione": "Amsterdam",
             },
             {
                 "id": 3,
@@ -257,7 +282,8 @@ const arrayTravels = [
                 "cognome": "Colombo",
                 "email": "simona.colombo@example.com",
                 "cellulare": "3336543210",
-                "codice_fiscale": "CLMSMN91E05H505V"
+                "codice_fiscale": "CLMSMN91E05H505V",
+                "destinazione": "Amsterdam",
             },
             {
                 "id": 4,
@@ -265,7 +291,8 @@ const arrayTravels = [
                 "cognome": "Gialli",
                 "email": "riccardo.gialli@example.com",
                 "cellulare": "3332345678",
-                "codice_fiscale": "GLLRCR87F06H506U"
+                "codice_fiscale": "GLLRCR87F06H506U",
+                "destinazione": "Amsterdam",
             },
             {
                 "id": 5,
@@ -273,7 +300,8 @@ const arrayTravels = [
                 "cognome": "Bruno",
                 "email": "martina.bruno@example.com",
                 "cellulare": "3334567891",
-                "codice_fiscale": "BRNMRT93G07H507T"
+                "codice_fiscale": "BRNMRT93G07H507T",
+                "destinazione": "Amsterdam",
             }
         ]
     },
@@ -290,7 +318,8 @@ const arrayTravels = [
                 "cognome": "Santoro",
                 "email": "alessio.santoro@example.com",
                 "cellulare": "3331122334",
-                "codice_fiscale": "SNTSLS88E05H505V"
+                "codice_fiscale": "SNTSLS88E05H505V",
+                "destinazione": "Madrid",
             },
             {
                 "id": 2,
@@ -298,7 +327,8 @@ const arrayTravels = [
                 "cognome": "Viola",
                 "email": "federica.viola@example.com",
                 "cellulare": "3335566778",
-                "codice_fiscale": "VILFDR82F06H506U"
+                "codice_fiscale": "VILFDR82F06H506U",
+                "destinazione": "Madrid",
             },
             {
                 "id": 3,
@@ -306,7 +336,8 @@ const arrayTravels = [
                 "cognome": "Moretti",
                 "email": "leonardo.moretti@example.com",
                 "cellulare": "3337788990",
-                "codice_fiscale": "MRTLNR94H08H508S"
+                "codice_fiscale": "MRTLNR94H08H508S",
+                "destinazione": "Madrid",
             },
             {
                 "id": 4,
@@ -314,7 +345,8 @@ const arrayTravels = [
                 "cognome": "Barbieri",
                 "email": "beatrice.barbieri@example.com",
                 "cellulare": "3339900112",
-                "codice_fiscale": "BRBBTR86I09H509R"
+                "codice_fiscale": "BRBBTR86I09H509R",
+                "destinazione": "Madrid",
             }
         ]
     }

@@ -12,7 +12,6 @@ function TravelProvider({ children }) {
         (viaggiatore.nome.toLowerCase() + viaggiatore.cognome.toLowerCase()).includes(searchTerm.toLowerCase())
     );
 
-
     const handleSearch = (e) => {
         e.preventDefault()
         setSearchTerm(e.target.value);
@@ -22,8 +21,8 @@ function TravelProvider({ children }) {
     const handleSubmit = (e) => {
         e.preventDefault()
     }
-    const refSearch = useRef(null)
 
+    const refSearch = useRef(null)
 
     const data = {
         handleSearch,
