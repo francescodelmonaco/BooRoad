@@ -15,7 +15,7 @@ export default function TravelPage({ travelData }) {
     return (
 
         <div className="container">
-
+            <h1 className="text-center py-4" >{travelFound.destinazione}</h1>
             {viaggiatori.map(v => {
                 return (
                     <Accordion key={v.id} v={v} />
