@@ -7,7 +7,7 @@ export default function HomePage({ travelData }) {
 
     return (
         // SENZA COMPONENTE
-        <div className="container row row-cols-1 justify-content-center mx-auto ">
+        <div className="container row row-cols-1 row-cols-md-2  gy-4 justify-content-center align-items-center mx-auto ">
             {
                 travelData.map(t => {
                     return (
