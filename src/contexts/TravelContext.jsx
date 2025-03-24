@@ -1,4 +1,4 @@
-import { useContext, createContext, useState } from "react";
+import { useContext, createContext, useState, useRef } from "react";
 import travelData from '../data/arrayTravels'
 
 const TravelContext = createContext()
@@ -15,19 +15,22 @@ function TravelProvider({ children }) {
 
     const handleSearch = (e) => {
         e.preventDefault()
-        setSearchTerm(e.target.value)
+        setSearchTerm(e.target.value);
+        refSearch.current.focus();
     }
 
     const handleSubmit = (e) => {
         e.preventDefault()
     }
+    const refSearch = useRef(null)
 
 
     const data = {
         handleSearch,
         searchTerm,
         filteredViaggiatori,
-        handleSubmit
+        handleSubmit,
+        refSearch
     }
 
 
