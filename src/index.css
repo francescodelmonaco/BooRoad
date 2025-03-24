@@ -33,14 +33,10 @@
     }
 }
 
-.button {
-    border: 1px solid red;
-}
 
 card {
     width: 220px;
     height: 300px;
-
 }
 
 .cover {
