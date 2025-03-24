@@ -8,10 +8,11 @@ export default function HomePage({ travelData }) {
     return (
         // SENZA COMPONENTE
         <div className="container row row-cols-1 row-cols-md-2 g-4 justify-content-center align-items-center mx-auto ">
+
             {
                 travelData.map(t => {
                     return (
-                        <Link key={t.id} to={`/travels/${t.id}`}>
+                        <Link className="col" key={t.id} to={`/travels/${t.id}`}>
                             <Card t={t} />
                         </Link>
                     )

@@ -17,10 +17,10 @@ export default function Header() {
 
             <ul className="nav navbar-nav">
                 <li className="nav-item">
-                    <NavLink className="nav-link " to="/"> HOME </NavLink>
+                    <NavLink className="nav-link button " to="/"> HOME </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/contacts">RUBRICA</NavLink>
+                    <NavLink className="nav-link button " to="/contacts">RUBRICA</NavLink>
                 </li>
 
             </ul>
