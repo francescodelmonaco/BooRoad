@@ -15,6 +15,7 @@ export default function Header() {
 
             {showSB && <SearchBar />}
 
+
        
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuHamburger" 
             aria-controls="menuHamburger" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,6 +43,7 @@ export default function Header() {
     </nav>
 
             
+
 
     )
 

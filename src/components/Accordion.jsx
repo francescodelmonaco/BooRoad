@@ -1,4 +1,12 @@
+import { useLocation } from "react-router-dom";
+
+
+
 export default function Accordion({ v, i }) {
+
+    const location = useLocation();
+    const showDest = location.pathname.startsWith('/contacts')
+
     return (
         <div className=" accordion col-8 col-md-6 mx-auto " id="accordionExample">
             <div className="accordion-item p-2">
@@ -12,6 +20,7 @@ export default function Accordion({ v, i }) {
                         aria-controls={v.codice_fiscale}
                     >
                         {v.nome} {v.cognome}
+
                     </button>
                 </h2>
                 <div
@@ -24,11 +33,14 @@ export default function Accordion({ v, i }) {
                         <p> telefono: <strong>{v.cellulare}</strong></p>
                         <p>email: {v.email}</p>
                         <p>CF: {v.codice_fiscale}</p>
-                        <p>destinazione: {v.destinazione}</p>
+
+                        {
+                            showDest && <p>destinazione: {v.destinazione}</p>
+                        }
 
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }

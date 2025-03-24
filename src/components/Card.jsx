@@ -1,39 +1,25 @@
+import { Link } from "react-router-dom";
+
 export default function Card({ t }) {
-
     return (
-        // <div key={t.id} className="book gy-3">
-        //     <ul>
-        //         <li><h3>{t.destinazione}</h3></li>
-        //         <li><h5>inizio {t.data_inizio}</h5></li>
-        //         <li><h5>fine {t.data_fine}</h5></li>
-        //         <li><p>{(t.viaggiatori).length} viaggiatori</p></li>
-        //     </ul>
-
-
-        //     <div className="cover">
-        //         <img src={t.url} className="img-fluid img-thumbnail" alt={t.destinazione} />
-        //         <p className="position-absolute top-0 end-0 px-3 py-2  "><strong>{t.destinazione}</strong></p>
-        //     </div>
-        // </div>
-
-        <div className="card text-bg-dark">
-            <img src={t.url} className="img-fluid img-thumbnail card-img" alt="..." />
-            <div className="card-img-overlay">
-                <ul>
-                    <li><h3 className="card-title">{t.destinazione}</h3></li>
-                    <li><h5 className="card-text">inizio {t.data_inizio}</h5></li>
-                    <li><h5 className="card-text">fine {t.data_fine}</h5></li>
-                    <li><p className="card-text">{(t.viaggiatori).length} viaggiatori</p></li>
+        <div className="card text-bg-dark mb-3 h-full flex flex-col" style={{ width: "18rem" }}>
+            <img 
+                src={t.url} 
+                className="img-fluid rounded-top object-cover" 
+                alt={t.destinazione} 
+                style={{ height: "180px", width: "100%" }}
+            />
+            <div className="card-body flex-grow">
+                <h5 className="card-title text-center">{t.destinazione}</h5>
+                <ul className="list-unstyled">
+                    <li><h6 className="card-text">Inizio: {t.data_inizio}</h6></li>
+                    <li><h6 className="card-text">Fine: {t.data_fine}</h6></li>
+                    <li><p className="card-text">{t.viaggiatori.length} viaggiatori</p></li>
                 </ul>
             </div>
+            <div className="card-footer text-center">
+                <Link className="btn btn-primary w-100" to={`/travels/${t.id}`}>lista partecipanti</Link>
+            </div>
         </div>
-
-
-
-
-
-
-
-    )
-
+    );
 }

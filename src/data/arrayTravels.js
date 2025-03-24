@@ -3,7 +3,7 @@ const arrayTravels = [
     {
         "id": 1,
         "destinazione": "Roma",
-        "url": "/destinations/roma.avif",
+        "url": "/destinations/roma.png",
         "data_inizio": "2023-10-20",
         "data_fine": "2023-10-27",
         "viaggiatori": [
@@ -57,7 +57,7 @@ const arrayTravels = [
     {
         "id": 2,
         "destinazione": "Parigi",
-        "url": "/destinations/parigi.jpg",
+        "url": "/destinations/parigi.png",
         "data_inizio": "2023-11-05",
         "data_fine": "2023-11-12",
         "viaggiatori": [
@@ -111,7 +111,7 @@ const arrayTravels = [
     {
         "id": 3,
         "destinazione": "Londra",
-        "url": "/destinations/londra.jpg",
+        "url": "/destinations/londra.png",
         "data_inizio": "2023-12-01",
         "data_fine": "2023-12-08",
         "viaggiatori": [
@@ -165,7 +165,7 @@ const arrayTravels = [
     {
         "id": 4,
         "destinazione": "Barcellona",
-        "url": "/destinations/barcellona.jpg",
+        "url": "/destinations/barcellona.png",
         "data_inizio": "2024-01-15",
         "data_fine": "2024-01-22",
         "viaggiatori": [
@@ -209,7 +209,7 @@ const arrayTravels = [
     {
         "id": 5,
         "destinazione": "Berlino",
-        "url": "/destinations/berlino.jpg",
+        "url": "/destinations/berlino.png",
         "data_inizio": "2024-03-10",
         "data_fine": "2024-03-17",
         "viaggiatori": [
@@ -254,7 +254,7 @@ const arrayTravels = [
     {
         "id": 6,
         "destinazione": "Amsterdam",
-        "url": "/destinations/amsterdam.avif",
+        "url": "/destinations/amsterdam.png",
         "data_inizio": "2024-04-20",
         "data_fine": "2024-04-27",
         "viaggiatori": [
@@ -308,7 +308,7 @@ const arrayTravels = [
     {
         "id": 7,
         "destinazione": "Madrid",
-        "url": "/destinations/madrid.jpg",
+        "url": "/destinations/madrid.png",
         "data_inizio": "2024-05-15",
         "data_fine": "2024-05-22",
         "viaggiatori": [
