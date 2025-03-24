@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import PulsanteChiamata from "./CallButton";
 
 export default function Accordion({ v, i }) {
 
@@ -10,7 +11,7 @@ export default function Accordion({ v, i }) {
             <div className="accordion-item p-2">
                 <h2 className="accordion-header">
                     <button
-                        className="accordion-button collapsed accordion-button-no-blue"
+                        className="accordion-button collapsed accordion-button-no-blue text-center"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target={`#${v.codice_fiscale}`}
@@ -18,7 +19,6 @@ export default function Accordion({ v, i }) {
                         aria-controls={v.codice_fiscale}
                     >
                         {v.nome} {v.cognome}
-
                     </button>
                 </h2>
                 <div
@@ -28,7 +28,7 @@ export default function Accordion({ v, i }) {
                 >
                     <div className="accordion-body">
 
-                        <p> telefono: <strong>{v.cellulare}</strong></p>
+                        <p> telefono: <strong>{v.cellulare}  </strong> <PulsanteChiamata numero={v.cellulare} /></p>
                         <p>email: {v.email}</p>
                         <p>CF: {v.codice_fiscale}</p>
 
