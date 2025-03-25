@@ -8,6 +8,10 @@ function TravelProvider({ children }) {
 
     const [searchTerm, setSearchTerm] = useState('');
 
+    //task funzione filtro in HomePage
+    const filteredViaggi = (searchTerm == '') ? travelData : travelData.filter(viaggio => viaggio.destinazione.toLocaleLowerCase().includes(searchTerm.toLowerCase()))
+
+    //task funzione filtro in TravelersBook
     const filteredViaggiatori = tuttiViaggiatori.filter(viaggiatore =>
         (viaggiatore.nome.toLowerCase() + viaggiatore.cognome.toLowerCase()).includes(searchTerm.toLowerCase())
     );
@@ -29,7 +33,8 @@ function TravelProvider({ children }) {
         searchTerm,
         filteredViaggiatori,
         handleSubmit,
-        refSearch
+        refSearch,
+        filteredViaggi
     }
 
 
