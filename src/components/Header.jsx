@@ -1,7 +1,11 @@
-import { NavLink, Link } from "react-router-dom"
+import { NavLink, Link, useLocation } from "react-router-dom"
 import SearchBar from "./SearchBar"
 
+
 export default function Header() {
+    const location = useLocation()
+    const showSearchBar = location.pathname.startsWith("/travels")
+
     return (
 
         <nav className="navbar navbar-expand-xl bg-body-tertiary">
@@ -24,7 +28,7 @@ export default function Header() {
                             <NavLink className="nav-link" to="/contacts">RUBRICA</NavLink>
                         </li>
                         <li className="nav-item py-sm-2">
-                            <SearchBar />
+                            {!showSearchBar && <SearchBar />}
                         </li>
                     </ul>
 
