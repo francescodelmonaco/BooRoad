@@ -22,6 +22,8 @@ export default function TravelersBook() {
                 onChange={(e) => setSearchTerm(e.target.value)}
             /> */}
 
+            <h1 className='text-center mb-4'>Rubrica contatti:</h1>
+
             {filteredViaggiatori.map((v, i) => {
                 return (
                     <Accordion key={i} v={v} />

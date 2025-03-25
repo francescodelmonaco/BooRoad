@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar"
 export default function Header() {
     return (
 
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-xl bg-body-tertiary">
             <div className="container-fluid">
                 <Link className="navbar-brand" to='/'>
                     <img width="50px" src="/logo.png" className="img-fluid rounded" alt="logo" />
@@ -16,14 +16,14 @@ export default function Header() {
                 </button>
 
                 <div className="collapse navbar-collapse" id="menuHamburger">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
+                    <ul className="navbar-nav">
+                        <li className="nav-item text-center">
                             <NavLink className="nav-link " to="/"> HOME </NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item text-center">
                             <NavLink className="nav-link" to="/contacts">RUBRICA</NavLink>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item py-sm-2">
                             <SearchBar />
                         </li>
                     </ul>

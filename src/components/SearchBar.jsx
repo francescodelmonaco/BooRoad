@@ -3,7 +3,7 @@ import { useTravelContext } from "../contexts/TravelContext";
 export default function SearchBar() {
     const { searchTerm, handleSearch, handleSubmit, refSearch } = useTravelContext();
     return (
-        <form className="container d-flex mb-3" onSubmit={handleSubmit} >
+        <form className="container-fluid d-flex" onSubmit={handleSubmit} >
             <input
                 ref={refSearch}
                 type="text"
