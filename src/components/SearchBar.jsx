@@ -7,7 +7,7 @@ export default function SearchBar() {
             <input
                 ref={refSearch}
                 type="text"
-                placeholder="Cerca contatto"
+                placeholder="Cerca..."
                 value={searchTerm}
                 onChange={handleSearch}
                 className="form-control me-2 text-black bg-white"
