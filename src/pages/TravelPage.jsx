@@ -16,18 +16,20 @@ export default function TravelPage({ travelData }) {
 
     return (
         <div className="container">
-            <h1 className="text-center py-4">{travelFound.destinazione}</h1>
-            <p className="text-center">Data inizio: {travelFound.data_inizio}</p>
-            <p className="text-center">Data fine: {travelFound.data_fine}</p>
+            <h1 className="text-center mb-4 text-uppercase">{travelFound.destinazione}</h1>
+
+            <h6 className="text-center">Data inizio: {travelFound.data_inizio}</h6>
+            <h6 className="text-center">Data fine: {travelFound.data_fine}</h6>
+
             {/* Barra di ricerca locale */}
-            <div className="mb-4 col-6 mx-auto">
+            <div className="my-4 col-10 mx-auto">
                 <input
                     type="text"
                     placeholder="Cerca viaggiatore..."
                     className="form-control me-2 text-black bg-white"
                     value={localSearchTerm}
                     onChange={(e) => setLocalSearchTerm(e.target.value)}
-                    
+
                 />
             </div>
 

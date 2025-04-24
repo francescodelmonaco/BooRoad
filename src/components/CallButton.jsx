@@ -5,7 +5,7 @@ function PulsanteChiamata({ numero }) {
     };
 
     return (
-        <button className="btn " onClick={gestisciClick}> <i className="bi bi-telephone"> </i> </button>
+        <button className="btn me-3" onClick={gestisciClick}> <i className="bi bi-telephone"> </i> </button>
     );
 }
 

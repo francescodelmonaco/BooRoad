@@ -8,11 +8,10 @@ export default function HomePage() {
     const { filteredViaggi } = useTravelContext()
 
     return (
-        <div className="container mt-4">
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
-
+        <div className="container text-center">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 {filteredViaggi.map(t => (
-                    <div key={t.id} className="col d-flex justify-content-center">
+                    <div key={t.id} className="col mb-4">
                         <Link to={`/travels/${t.id}`} >
                             <Card t={t} />
                         </Link>

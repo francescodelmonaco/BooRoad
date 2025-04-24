@@ -1,8 +1,12 @@
 ::placeholder {
     color: #2b3035 !important;
-    opacity: 0.6 !important; /* Firefox */
-  }
+    opacity: 0.6 !important;
+    /* Firefox */
+}
 
+* {
+    /* border: 1px solid red; */
+}
 
 a,
 li {

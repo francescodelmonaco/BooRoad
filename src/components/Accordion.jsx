@@ -7,7 +7,7 @@ export default function Accordion({ v, i }) {
     const showDest = location.pathname.startsWith('/contacts')
 
     return (
-        <div className=" accordion col-8 col-md-6 mx-auto " id="accordionExample">
+        <div className=" accordion col-10 mx-auto" id="accordionExample">
             <div className="accordion-item p-2">
                 <h2 className="accordion-header">
                     <button
@@ -28,12 +28,12 @@ export default function Accordion({ v, i }) {
                 >
                     <div className="accordion-body">
 
-                        <p> telefono: <strong>{v.cellulare}  </strong> <PulsanteChiamata numero={v.cellulare} /></p>
-                        <p>email: {v.email}</p>
-                        <p>CF: {v.codice_fiscale}</p>
+                        <p><PulsanteChiamata numero={v.cellulare} /><strong>{v.cellulare}</strong></p>
+                        <p><i className="bi bi-envelope me-3"></i>{v.email}</p>
+                        <p><i className="bi bi-person me-3"></i>{v.codice_fiscale}</p>
 
                         {
-                            showDest && <p>destinazione: {v.destinazione}</p>
+                            showDest && <p><i className="bi bi-airplane me-3"></i>{v.destinazione}</p>
                         }
 
                     </div>

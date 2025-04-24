@@ -12,7 +12,7 @@ export default function SearchBar() {
                 onChange={handleSearch}
                 className="form-control me-2 text-black bg-white"
             />
-            <button className="btn" type="submit">Cerca</button>
+            <button className="btn text-light" type="submit">Cerca</button>
         </form >
     )
 };

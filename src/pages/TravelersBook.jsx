@@ -14,15 +14,8 @@ export default function TravelersBook() {
     // ); =>to Context
 
     return (
-        <div>
-            {/* <input
-                type="text"
-                placeholder="Cerca per nome..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-            /> */}
-
-            <h1 className='text-center mb-4'>Rubrica contatti:</h1>
+        <div className=''>
+            <h1 className='text-center mb-5'>RUBRICA CONTATTI:</h1>
 
             {filteredViaggiatori.map((v, i) => {
                 return (
