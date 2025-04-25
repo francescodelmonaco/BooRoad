@@ -47,9 +47,4 @@ Il progetto è stato realizzato da:
 - Francesco Delmonaco (https://github.com/francescodelmonaco)  
 - Giuseppe Zaccato (https://github.com/giuseppezaccato)  
 - Marco Roncuzzi (https://github.com/marcoroncuzzi02)  
-- Vincenzo Ferraro (https://github.com/VincenzoFerraro0)
-
-## 📬 Note finali
-
-BooRoad è attualmente in fase di prototipazione.  
-Ogni feedback, suggerimento o collaborazione è benvenuto!
+- Vincenzo Ferraro (https://github.com/VincenzoFerraro0)  
