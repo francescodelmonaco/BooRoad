@@ -1,78 +1,55 @@
+# BooRoad 🌍🛫  
+**Categoria:** Organizzazione viaggi di gruppo  
+**Target:** Accompagnatori, organizzatori di viaggi  
 
-# Rubrica Contatti per Accompagnatori di Viaggio
+## Descrizione del progetto
 
-Questo progetto è un'applicazione React creata con Vite, progettata per aiutare gli accompagnatori di viaggio a gestire i contatti dei partecipanti durante le gite.
- 
- #### Installazione standard
+BooRoad è un prototipo di web app pensato per supportare gli accompagnatori nella gestione di viaggi organizzati.  
+L’obiettivo è fornire una panoramica chiara dei viaggi in corso e un accesso rapido alle informazioni sui partecipanti, garantendo un’esperienza semplice, efficiente e accessibile da qualsiasi dispositivo.
 
-1.  **Clona il repository:**
+L’interfaccia è responsive e progettata per caricare i contenuti in modo dinamico, senza refresh completi della pagina.
 
-    ```bash
-    git clone [https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository)
-    cd [nome-app]
-    ```
+## Obiettivi principali
 
-2.  **Installa le dipendenze:**
+- Offrire una piattaforma intuitiva per la gestione di viaggi di gruppo  
+- Permettere un accesso veloce alle informazioni dei partecipanti  
+- Garantire una ricerca rapida tramite filtro per nome/cognome  
+- Visualizzare i dettagli dei partecipanti per un contatto diretto  
+- Gestire in modo ordinato i dati di ogni viaggio attivo  
 
-    ```bash
-    npm install
-    ```
-    <!-- opzionale :installazione singola dei pacchetti -->
-    ## installazione pacchetti
-    **2.1inizializzo react con vite:**
-    ```sh
-    npm create vite@latest nome-app --template react
-    cd nome-app
-    npm install 
-    ```
-    **2.2installo bootstrap:**
-    ```sh
-        npm install bootstrap
-    ```
-    **aggiungo in main.jsx**
-        `import 'bootstrap/dist/css/bootstrap.min.css'`
+## Caratteristiche principali
 
-    **2.3installo router dom:**
-    ```sh
-        npm install react-router-dom
-    ```
+- **Homepage con elenco viaggi in corso**  
+  Visualizzazione immediata di tutti i viaggi attivi con destinazione e date.
 
-3.  **Avvia l'applicazione:**
+- **Rubrica contatti per singolo viaggio**  
+  Ogni viaggio ha la propria rubrica partecipanti, separata e facilmente consultabile.
 
-```bash
-    npm run dev
-```
+- **Dettagli partecipante**  
+  Accesso a email, numero di telefono e codice fiscale cliccando sul nome.
 
-4.  **Apri nel browser:**
+- **Barra di ricerca intelligente**  
+  Filtro per nome e cognome con aggiornamento in tempo reale dei risultati.
 
-    Vai su `http://localhost:5173/` (o la porta indicata da Vite).
+- **Design responsive**  
+  Perfettamente accessibile da desktop, tablet e smartphone.
 
-## Funzionalità
+## Tecnologie utilizzate
 
-* **Lista Viaggi:** Visualizza una lista dei viaggi in corso, con destinazione, data di inizio e fine.
-* **Rubrica Contatti:** Per ogni viaggio, mostra una rubrica con i partecipanti (nome e cognome).
-* **Dettagli Partecipante:** Cliccando sul nome di un partecipante, visualizza email, telefono e codice fiscale.
-* **Ricerca:** Barra di ricerca per filtrare i partecipanti per nome e cognome.
-* **Bonus (Opzionale):** Possibilità di aggiungere nuovi viaggi e contatti (con realtivo form)
+- **Frontend:** React.js (Single Page Application con rendering dinamico)  
+- **Styling:** Bootstrap 5 (interfaccia responsive e moderna)  
 
-## Tecnologie Utilizzate
-* React
-* Vite
-* React Router DOM
-* Bootstrap
+## Team di sviluppo
 
-## Configurazione
-* Per aggiungere o modificare i dati dei viaggi e dei contatti, modifica l'array di dati fittizi nel codice.
+Il progetto è stato realizzato da:  
+- Alessandro Fioretti (https://github.com/413f10r)  
+- Chiara Allegrino (https://github.com/chiaraalle)
+- Francesco Delmonaco (https://github.com/francescodelmonaco)  
+- Giuseppe Zaccato (https://github.com/giuseppezaccato)  
+- Marco Roncuzzi (https://github.com/marcoroncuzzi02)  
+- Vincenzo Ferraro (https://github.com/VincenzoFerraro0)
 
-## Struttura del Progetto
+## 📬 Note finali
 
-## CONSIGLI PER PRESENTARE 
-(max 10 minuti per presentare)
-Riprendete le necessità esposte dal cliente
-Raccontate cosa avete preso in considerazione come prioritario e perché
-Spiegate quali sono le funzionalità principali realizzate e a quali bisogni del cliente
-rispondono
-Raccontate le funzionalità che implementerete nelle prossime release (indicando in quale
-rilascio specifico - secondo, terzo ecc)
-Presentate il prototipo e mostrate le funzionalità
-Assicuratevi che al cliente sia tutto chiaro e lasciate spazio a domande e dubbi
+BooRoad è attualmente in fase di prototipazione.  
+Ogni feedback, suggerimento o collaborazione è benvenuto!
